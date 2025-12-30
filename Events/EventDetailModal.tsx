@@ -9,7 +9,7 @@ import { Button } from "@/UI/button";
 import { Badge } from "@/UI/badge";
 import { Avatar, AvatarFallback, AvatarImage } from "@/UI/avatar";
 import { Separator } from "@/UI/separator";
-import { FollowBusinessButton } from "@/components/UI/FollowBusinessButton";
+import { FollowBusinessButton } from "@/UI/FollowBusinessButton";
 import {
   Calendar,
   Clock,
