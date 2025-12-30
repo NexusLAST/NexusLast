@@ -5,11 +5,11 @@ import {
   DialogDescription,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
+} from "@/UI/dialog";
+import { Button } from "@/UI/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/UI/card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/UI/avatar";
+import { Badge } from "@/UI/badge";
 import { Users, UserPlus, Check, X, Star, Clock, Heart } from "lucide-react";
 import { useDemoUser } from "@/contexts/DemoUserContext";
 import { toast } from "@/hooks/use-toast";

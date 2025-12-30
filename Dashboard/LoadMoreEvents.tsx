@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { EventCard } from "@/components/Events/EventCard";
-import { Button } from "@/components/ui/button";
+import { EventCard } from "@/Events/EventCard";
+import { Button } from "@/UI/button";
 import { Loader2, ChevronDown } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 

@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { EventDetailModal } from "@/components/Events/EventDetailModal";
-import { EventApplicationForm } from "@/components/Events/EventApplicationForm";
+import { Card, CardContent, CardHeader, CardTitle } from "@/UI/card";
+import { Button } from "@/UI/button";
+import { Badge } from "@/UI/badge";
+import { Avatar, AvatarFallback, AvatarImage } from "@/UI/avatar";
+import { EventDetailModal } from "@/Events/EventDetailModal";
+import { EventApplicationForm } from "@/Events/EventApplicationForm";
 import {
   Calendar,
   MapPin,
