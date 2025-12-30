@@ -4,14 +4,14 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Separator } from "@/components/ui/separator";
-import { ThemeToggle } from "@/components/ui/theme-toggle";
-import { HamburgerMenu } from "@/components/Layout/HamburgerMenu";
-import { NexusLogo } from "@/components/ui/nexus-logo";
+} from "@/UI/card";
+import { Button } from "@/UI/button";
+import { Input } from "@/UI/input";
+import { Label } from "@/UI/label";
+import { Separator } from "@/UI/separator";
+import { ThemeToggle } from "@/UI/theme-toggle";
+import { HamburgerMenu } from "@/Layout/HamburgerMenu";
+import { NexusLogo } from "@/UI/nexus-logo";
 import { Mail, Lock, Eye, EyeOff, ArrowLeft, LogIn } from "lucide-react";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
