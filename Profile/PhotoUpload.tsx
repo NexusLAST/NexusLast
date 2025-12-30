@@ -1,13 +1,13 @@
 import { useState, useRef } from "react";
-import { Button } from "@/components/ui/button";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Button } from "@/UI/button";
+import { Avatar, AvatarFallback, AvatarImage } from "@/UI/avatar";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog";
+} from "@/UI/dialog";
 import { Camera, Upload, X, Check } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 import { useDemoUser } from "@/contexts/DemoUserContext";
