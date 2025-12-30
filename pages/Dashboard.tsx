@@ -1,16 +1,16 @@
 import { useState } from "react";
-import { Layout } from "@/components/Layout/Layout";
-import { EventList } from "@/components/Events/EventList";
-import { LoadMoreEvents } from "@/components/Dashboard/LoadMoreEvents";
+import { Layout } from "@/Layout/Layout";
+import { EventList } from "@/Events/EventList";
+import { LoadMoreEvents } from "@/Dashboard/LoadMoreEvents";
 
-import { DynamicRecommendations } from "@/components/Dashboard/DynamicRecommendations";
-import { TodayScheduleModal } from "@/components/Dashboard/TodayScheduleModal";
-import { FriendRequestsModal } from "@/components/Dashboard/FriendRequestsModal";
-import { PremiumPlansModal } from "@/components/Dashboard/PremiumPlansModal";
-import { PostEventFriendSuggestions } from "@/components/Events/PostEventFriendSuggestions";
-import { PostEventFeedbackForm } from "@/components/Events/PostEventFeedbackForm";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { DynamicRecommendations } from "@/Dashboard/DynamicRecommendations";
+import { TodayScheduleModal } from "@/Dashboard/TodayScheduleModal";
+import { FriendRequestsModal } from "@/Dashboard/FriendRequestsModal";
+import { PremiumPlansModal } from "@/Dashboard/PremiumPlansModal";
+import { PostEventFriendSuggestions } from "@/Events/PostEventFriendSuggestions";
+import { PostEventFeedbackForm } from "@/Events/PostEventFeedbackForm";
+import { Button } from "@/UI/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/UI/card";
 
 import {
   Plus,

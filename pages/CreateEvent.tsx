@@ -1,5 +1,5 @@
-import { Layout } from "@/components/Layout/Layout";
-import { EventForm } from "@/components/Events/EventForm";
+import { Layout } from "@/Layout/Layout";
+import { EventForm } from "@/Events/EventForm";
 
 export default function CreateEvent() {
   return (

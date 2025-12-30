@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Skeleton } from "@/components/ui/skeleton";
-import { Card, CardContent } from "@/components/ui/card";
-import { Layout } from "@/components/Layout/Layout";
-import { JoinedEventsTab } from "@/components/MyEvents/JoinedEventsTab";
-import { CreatedEventsTab } from "@/components/MyEvents/CreatedEventsTab";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/UI/tabs";
+import { Skeleton } from "@/UI/skeleton";
+import { Card, CardContent } from "@/UI/card";
+import { Layout } from "@/Layout/Layout";
+import { JoinedEventsTab } from "@/MyEvents/JoinedEventsTab";
+import { CreatedEventsTab } from "@/MyEvents/CreatedEventsTab";
 import { Users, Calendar } from "lucide-react";
 import { useDemoUser } from "@/contexts/DemoUserContext";
 
