@@ -1,15 +1,15 @@
 import { useState } from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Card, CardContent } from "@/UI/card";
+import { Button } from "@/UI/button";
+import { Badge } from "@/UI/badge";
+import { Avatar, AvatarFallback, AvatarImage } from "@/UI/avatar";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog";
+} from "@/UI/dialog";
 import {
   Star,
   Users,

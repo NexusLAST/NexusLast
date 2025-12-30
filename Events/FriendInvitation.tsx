@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
-import { Checkbox } from "@/components/ui/checkbox";
+import { Card, CardContent, CardHeader, CardTitle } from "@/UI/card";
+import { Button } from "@/UI/button";
+import { Input } from "@/UI/input";
+import { Avatar, AvatarFallback, AvatarImage } from "@/UI/avatar";
+import { Badge } from "@/UI/badge";
+import { Checkbox } from "@/UI/checkbox";
 import { Search, Users, UserPlus, Star, Send } from "lucide-react";
 import { useDemoUser } from "@/contexts/DemoUserContext";
 import { toast } from "@/hooks/use-toast";
