@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/UI/card";
-import { Button } from "@/components/UI/button";
-import { Badge } from "@/components/UI/badge";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/UI/avatar";
-import { EventDetailModal } from "@/components/Events/EventDetailModal";
+import { Card, CardContent, CardHeader, CardTitle } from "@/UI/card";
+import { Button } from "@/UI/button";
+import { Badge } from "@/UI/badge";
+import { Avatar, AvatarFallback, AvatarImage } from "@/UI/avatar";
+import { EventDetailModal } from "@/Events/EventDetailModal";
 import {
   Users,
   Calendar,

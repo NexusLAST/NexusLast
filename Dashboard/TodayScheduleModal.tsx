@@ -5,10 +5,10 @@ import {
   DialogDescription,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+} from "@/UI/dialog";
+import { Button } from "@/UI/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/UI/card";
+import { Badge } from "@/UI/badge";
 import { Calendar, Clock, MapPin, Users, ExternalLink } from "lucide-react";
 import { useDemoUser } from "@/contexts/DemoUserContext";
 import { supabase } from "@/lib/supabase";
