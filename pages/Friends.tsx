@@ -27,9 +27,9 @@ import {
   Coffee,
 } from "lucide-react";
 import { useDemoUser } from "@/contexts/DemoUserContext";
-import { ChatInterface } from "@/components/Friends/ChatInterface";
-import { FriendRequestManager } from "@/components/Friends/FriendRequestManager";
-import { FollowingManager } from "@/components/Friends/FollowingManager";
+import { ChatInterface } from "@/Friends/ChatInterface";
+import { FriendRequestManager } from "@/Friends/FriendRequestManager";
+import { FollowingManager } from "@/Friends/FollowingManager";
 import { toast } from "@/hooks/use-toast";
 
 interface Friend {
