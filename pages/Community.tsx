@@ -1,19 +1,19 @@
 import { useState, useEffect } from "react";
-import { Layout } from "@/components/Layout/Layout";
-import { UserCard } from "@/components/Community/UserCard";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Layout } from "@/Layout/Layout";
+import { UserCard } from "@/Community/UserCard";
+import { Button } from "@/UI/button";
+import { Input } from "@/UI/input";
+import { Card, CardContent, CardHeader, CardTitle } from "@/UI/card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/UI/avatar";
+import { Badge } from "@/UI/badge";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/UI/tabs";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "@/UI/select";
 import {
   Users,
   Search,

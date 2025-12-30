@@ -1,24 +1,24 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { Layout } from "@/components/Layout/Layout";
-import { BadgeSystem } from "@/components/Profile/BadgeSystem";
-import { PhotoUpload } from "@/components/Profile/PhotoUpload";
-import { MembershipPlans } from "@/components/Profile/MembershipPlans";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Layout } from "@/Layout/Layout";
+import { BadgeSystem } from "@/Profile/BadgeSystem";
+import { PhotoUpload } from "@/Profile/PhotoUpload";
+import { MembershipPlans } from "@/Profile/MembershipPlans";
+import { Button } from "@/UI/button";
+import { Input } from "@/UI/input";
+import { Textarea } from "@/UI/textarea";
+import { Label } from "@/UI/label";
+import { Card, CardContent, CardHeader, CardTitle } from "@/UI/card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/UI/avatar";
+import { Badge } from "@/UI/badge";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/UI/tabs";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "@/UI/select";
 import {
   AlertDialog,
   AlertDialogAction,
