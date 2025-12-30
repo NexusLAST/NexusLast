@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/UI/button";
 import {
   Sheet,
   SheetContent,
@@ -7,8 +7,8 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
-import { Separator } from "@/components/ui/separator";
+} from "@/UI/sheet";
+import { Separator } from "@/UI/separator";
 import {
   Menu,
   HelpCircle,

@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { Navbar } from "./Navbar";
-import { DemoBanner } from "@/components/ui/demo-banner";
+import { DemoBanner } from "@/UI/demo-banner";
 
 interface LayoutProps {
   children: ReactNode;

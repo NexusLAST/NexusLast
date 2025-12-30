@@ -1,8 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-import { ThemeToggle } from "@/components/ui/theme-toggle";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
+import { Button } from "@/UI/button";
+import { ThemeToggle } from "@/UI/theme-toggle";
+import { Avatar, AvatarFallback } from "@/UI/avatar";
+import { Badge } from "@/UI/badge";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -10,7 +10,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "@/UI/dropdown-menu";
 import {
   Calendar,
   Plus,
