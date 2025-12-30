@@ -1,11 +1,11 @@
 import { useState, useMemo } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Skeleton } from "@/components/ui/skeleton";
-import { EventDetailModal } from "@/components/Events/EventDetailModal";
-import { EventFeedbackForm } from "@/components/Events/EventFeedbackForm";
-import { EventStatusTag } from "@/components/MyEvents/EventStatusTag";
+import { Card, CardContent, CardHeader, CardTitle } from "@/UI/card";
+import { Button } from "@/UI/button";
+import { Badge } from "@/UI/badge";
+import { Skeleton } from "@/UI/skeleton";
+import { EventDetailModal } from "@/Events/EventDetailModal";
+import { EventFeedbackForm } from "@/Events/EventFeedbackForm";
+import { EventStatusTag } from "@/MyEvents/EventStatusTag";
 import {
   Calendar,
   MapPin,

@@ -1,21 +1,21 @@
 import { useState, useMemo } from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Skeleton } from "@/components/ui/skeleton";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Card, CardContent } from "@/UI/card";
+import { Button } from "@/UI/button";
+import { Badge } from "@/UI/badge";
+import { Skeleton } from "@/UI/skeleton";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/UI/tabs";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
-import { CloneEventButton } from "@/components/Events/CloneEventButton";
-import { ViewParticipantsModal } from "@/components/Events/ViewParticipantsModal";
-import { EventStatusTag } from "@/components/MyEvents/EventStatusTag";
-import { EventStatisticsModal } from "@/components/MyEvents/EventStatisticsModal";
-import { EventFeedbackModal } from "@/components/MyEvents/EventFeedbackModal";
+} from "@/UI/select";
+import { CloneEventButton } from "@/Events/CloneEventButton";
+import { ViewParticipantsModal } from "@/Events/ViewParticipantsModal";
+import { EventStatusTag } from "@/MyEvents/EventStatusTag";
+import { EventStatisticsModal } from "@/MyEvents/EventStatisticsModal";
+import { EventFeedbackModal } from "@/MyEvents/EventFeedbackModal";
 import {
   Calendar,
   Clock,
