@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * Nexus Modern Theme
+   * Tailwind CSS theme variables expressed as HSL values.
+   */
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 224 71% 4%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 224 71% 4%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71% 4%;
+
+    --primary: 262 83% 58%;
+    --primary-foreground: 210 20% 98%;
+
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 9% 46%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+
+    --accent: 220 14% 96%;
+    --accent-foreground: 220 9% 46%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 20% 98%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 262 83% 58%;
+
+    --radius: 0.75rem;
+
+    /* Nexus brand colors */
+    --nexus-50: 270 100% 98%;
+    --nexus-100: 269 100% 95%;
+    --nexus-200: 269 100% 89%;
+    --nexus-300: 268 100% 81%;
+    --nexus-400: 267 91% 70%;
+    --nexus-500: 262 83% 58%;
+    --nexus-600: 258 90% 48%;
+    --nexus-700: 253 78% 41%;
+    --nexus-800: 249 69% 34%;
+    --nexus-900: 245 63% 29%;
+    --nexus-950: 240 69% 18%;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 210 20% 98%;
+
+    --card: 224 71% 4%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 263 70% 50%;
+    --primary-foreground: 210 20% 98%;
+
+    --secondary: 215 27% 17%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 215 27% 17%;
+    --muted-foreground: 217 10% 65%;
+
+    --accent: 215 27% 17%;
+    --accent-foreground: 210 20% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 20% 98%;
+
+    --border: 215 27% 17%;
+    --input: 215 27% 17%;
+    --ring: 263 70% 50%;
+
+    /* Nexus brand colors for dark mode */
+    --nexus-50: 245 63% 29%;
+    --nexus-100: 249 69% 34%;
+    --nexus-200: 253 78% 41%;
+    --nexus-300: 258 90% 48%;
+    --nexus-400: 262 83% 58%;
+    --nexus-500: 267 91% 70%;
+    --nexus-600: 268 100% 81%;
+    --nexus-700: 269 100% 89%;
+    --nexus-800: 269 100% 95%;
+    --nexus-900: 270 100% 98%;
+    --nexus-950: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  /* Enhanced animations for dynamic UI */
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes glow {
+    0%,
+    100% {
+      box-shadow: 0 0 5px hsl(var(--nexus-500) / 0.5);
+    }
+    50% {
+      box-shadow:
+        0 0 20px hsl(var(--nexus-500) / 0.8),
+        0 0 30px hsl(var(--nexus-500) / 0.4);
+    }
+  }
+
+  @keyframes bounce-gentle {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  }
+
+  @keyframes scale-pulse {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
+
+  .animate-shimmer {
+    animation: shimmer 2s infinite;
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite;
+  }
+
+  .animate-bounce-gentle {
+    animation: bounce-gentle 2s ease-in-out infinite;
+  }
+
+  .animate-scale-pulse {
+    animation: scale-pulse 2s ease-in-out infinite;
+  }
+
+  /* Hover animations */
+  .hover-lift {
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Gradient text animation */
+  .gradient-text-animated {
+    background: linear-gradient(
+      45deg,
+      hsl(var(--nexus-500)),
+      hsl(var(--nexus-600)),
+      hsl(var(--nexus-700)),
+      hsl(var(--nexus-500))
+    );
+    background-size: 300% 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-shift 3s ease-in-out infinite;
+  }
+
+  @keyframes gradient-shift {
+    0%,
+    100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+
+  /* Advanced logo animations */
+  @keyframes logo-morph {
+    0%,
+    100% {
+      transform: scale(1) rotate(0deg);
+    }
+    25% {
+      transform: scale(1.05) rotate(2deg);
+    }
+    50% {
+      transform: scale(1.1) rotate(0deg);
+    }
+    75% {
+      transform: scale(1.05) rotate(-2deg);
+    }
+  }
+
+  @keyframes nexus-connection {
+    0% {
+      opacity: 0.3;
+      transform: scale(0.8);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    100% {
+      opacity: 0.3;
+      transform: scale(0.8);
+    }
+  }
+
+  @keyframes diagonal-slide {
+    0% {
+      transform: translateX(-10px) translateY(-10px);
+      opacity: 0.7;
+    }
+    50% {
+      transform: translateX(0px) translateY(0px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(10px) translateY(10px);
+      opacity: 0.7;
+    }
+  }
+
+  .animate-logo-morph {
+    animation: logo-morph 4s ease-in-out infinite;
+  }
+
+  .animate-nexus-connection {
+    animation: nexus-connection 2s ease-in-out infinite;
+  }
+
+  .animate-diagonal-slide {
+    animation: diagonal-slide 3s ease-in-out infinite;
+  }
+}
