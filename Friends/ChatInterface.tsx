@@ -1,10 +1,10 @@
 import { useState, useRef, useEffect } from "react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { Separator } from "@/components/ui/separator";
+import { Button } from "@/UI/button";
+import { Input } from "@/UI/input";
+import { Avatar, AvatarFallback, AvatarImage } from "@/UI/avatar";
+import { Badge } from "@/UI/badge";
+import { ScrollArea } from "@/UI/scroll-area";
+import { Separator } from "@/UI/separator";
 import { Send, Smile, Paperclip, MoreVertical } from "lucide-react";
 import { useDemoUser } from "@/contexts/DemoUserContext";
 import { cn } from "@/lib/utils";

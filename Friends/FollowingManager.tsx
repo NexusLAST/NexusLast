@@ -1,16 +1,16 @@
 import { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Input } from "@/components/ui/input";
+import { Card, CardContent, CardHeader, CardTitle } from "@/UI/card";
+import { Button } from "@/UI/button";
+import { Badge } from "@/UI/badge";
+import { Avatar, AvatarFallback, AvatarImage } from "@/UI/avatar";
+import { Input } from "@/UI/input";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog";
+} from "@/UI/dialog";
 import {
   Building2,
   Search,
