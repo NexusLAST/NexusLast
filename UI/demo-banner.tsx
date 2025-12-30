@@ -1,6 +1,6 @@
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Alert, AlertDescription } from "@/components/ui/alert";
+import { Badge } from "@/UI/badge";
+import { Button } from "@/UI/button";
+import { Alert, AlertDescription } from "@/UI/alert";
 import { PlayCircle, X, Info } from "lucide-react";
 import { useDemoUser } from "@/contexts/DemoUserContext";
 import { useState } from "react";
