@@ -23,14 +23,14 @@ import {
   SelectValue,
 } from "@/UI/select";
 import { Switch } from "@/UI/switch";
-import { Calendar } from "@/components/ui/calendar";
+import { Calendar } from "@/UI/calendar";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+} from "@/UI/popover";
+import { Card, CardContent, CardHeader, CardTitle } from "@/UI/card";
+import { Badge } from "@/UI/badge";
 import { CalendarIcon, MapPin, Users, Clock, Crown } from "lucide-react";
 import { format } from "date-fns";
 import { tr } from "date-fns/locale";
