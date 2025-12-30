@@ -4,11 +4,11 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog";
-import { Button } from "@/components/ui/button";
-import { Textarea } from "@/components/ui/textarea";
-import { Badge } from "@/components/ui/badge";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+} from "@/UI/dialog";
+import { Button } from "@/UI/button";
+import { Textarea } from "@/UI/textarea";
+import { Badge } from "@/UI/badge";
+import { Avatar, AvatarFallback, AvatarImage } from "@/UI/avatar";
 import {
   Star,
   Send,
