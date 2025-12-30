@@ -3,11 +3,11 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog";
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import { ScrollArea } from "@/components/ui/scroll-area";
+} from "@/UI/dialog";
+import { Card, CardContent, CardHeader } from "@/UI/card";
+import { Badge } from "@/UI/badge";
+import { Avatar, AvatarFallback } from "@/UI/avatar";
+import { ScrollArea } from "@/UI/scroll-area";
 import { Star, MessageCircle, Calendar, User, ThumbsUp } from "lucide-react";
 import { MockEvent } from "@/data/mockMyEvents";
 

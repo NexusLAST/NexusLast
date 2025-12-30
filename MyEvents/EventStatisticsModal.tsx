@@ -3,10 +3,10 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Progress } from "@/components/ui/progress";
+} from "@/UI/dialog";
+import { Card, CardContent, CardHeader, CardTitle } from "@/UI/card";
+import { Badge } from "@/UI/badge";
+import { Progress } from "@/UI/progress";
 import {
   Users,
   Star,
