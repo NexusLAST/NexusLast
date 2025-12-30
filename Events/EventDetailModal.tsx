@@ -4,11 +4,11 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Separator } from "@/components/ui/separator";
+} from "@/UI/dialog";
+import { Button } from "@/UI/button";
+import { Badge } from "@/UI/badge";
+import { Avatar, AvatarFallback, AvatarImage } from "@/UI/avatar";
+import { Separator } from "@/UI/separator";
 import { FollowBusinessButton } from "@/components/UI/FollowBusinessButton";
 import {
   Calendar,

@@ -4,13 +4,13 @@ import {
   CardContent,
   CardFooter,
   CardHeader,
-} from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { CloneEventButton } from "@/components/Events/CloneEventButton";
-import { EventDetailModal } from "@/components/Events/EventDetailModal";
-import { EventApplicationForm } from "@/components/Events/EventApplicationForm";
+} from "@/UI/card";
+import { Badge } from "@/UI/badge";
+import { Button } from "@/UI/button";
+import { Avatar, AvatarFallback, AvatarImage } from "@/UI/avatar";
+import { CloneEventButton } from "@/Events/CloneEventButton";
+import { EventDetailModal } from "@/Events/EventDetailModal";
+import { EventApplicationForm } from "@/Events/EventApplicationForm";
 import { Calendar, MapPin, Users, Clock, Star, Eye } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { toast } from "@/hooks/use-toast";

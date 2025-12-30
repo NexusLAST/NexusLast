@@ -4,12 +4,12 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog";
-import { Button } from "@/components/ui/button";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
-import { Badge } from "@/components/ui/badge";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+} from "@/UI/dialog";
+import { Button } from "@/UI/button";
+import { Textarea } from "@/UI/textarea";
+import { Label } from "@/UI/label";
+import { Badge } from "@/UI/badge";
+import { Avatar, AvatarFallback, AvatarImage } from "@/UI/avatar";
 import { Calendar, Clock, MapPin, Users, Star, Send, User } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 
