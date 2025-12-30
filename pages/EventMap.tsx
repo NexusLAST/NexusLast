@@ -1,5 +1,5 @@
-import { Layout } from "@/components/Layout/Layout";
-import { EventMapDetailed } from "@/components/Events/EventMapDetailed";
+import { Layout } from "@/Layout/Layout";
+import { EventMapDetailed } from "@/Events/EventMapDetailed";
 
 export default function EventMap() {
   return (

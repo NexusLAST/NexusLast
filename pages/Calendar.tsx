@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Layout } from "@/components/Layout/Layout";
-import { EventCalendar } from "@/components/Calendar/EventCalendar";
-import { DailyEventDetails } from "@/components/Calendar/DailyEventDetails";
+import { Layout } from "@/Layout/Layout";
+import { EventCalendar } from "@/Calendar/EventCalendar";
+import { DailyEventDetails } from "@/Calendar/DailyEventDetails";
 
 // Mock daily events data
 const mockDailyEvents = [

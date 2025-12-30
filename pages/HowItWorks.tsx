@@ -1,8 +1,8 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { ThemeToggle } from "@/components/ui/theme-toggle";
-import { HamburgerMenu } from "@/components/Layout/HamburgerMenu";
-import { NexusLogo } from "@/components/ui/nexus-logo";
+import { Button } from "@/UI/button";
+import { Card, CardContent } from "@/UI/card";
+import { ThemeToggle } from "@/UI/theme-toggle";
+import { HamburgerMenu } from "@/Layout/HamburgerMenu";
+import { NexusLogo } from "@/UI/nexus-logo";
 import {
   ArrowLeft,
   UserPlus,
