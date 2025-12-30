@@ -11,18 +11,18 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
+} from "@/UI/form";
+import { Input } from "@/UI/input";
+import { Textarea } from "@/UI/textarea";
+import { Button } from "@/UI/button";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
-import { Switch } from "@/components/ui/switch";
+} from "@/UI/select";
+import { Switch } from "@/UI/switch";
 import { Calendar } from "@/components/ui/calendar";
 import {
   Popover,
