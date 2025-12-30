@@ -1,11 +1,11 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
-import { ThemeToggle } from "@/components/ui/theme-toggle";
-import { HamburgerMenu } from "@/components/Layout/HamburgerMenu";
-import { NexusLogo } from "@/components/ui/nexus-logo";
+import { Button } from "@/UI/button";
+import { Card, CardContent } from "@/UI/card";
+import { Input } from "@/UI/input";
+import { Textarea } from "@/UI/textarea";
+import { Label } from "@/UI/label";
+import { ThemeToggle } from "@/UI/theme-toggle";
+import { HamburgerMenu } from "@/Layout/HamburgerMenu";
+import { NexusLogo } from "@/UI/nexus-logo";
 import {
   ArrowLeft,
   Mail,
